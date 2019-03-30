@@ -1,6 +1,8 @@
-server.port: 8081
-spring.application.name: howling-client
 spring:
+  application:
+    name: howling-client
   cloud:
     zookeeper:
       connect-string: localhost:2181
+server:
+  port: 8081
